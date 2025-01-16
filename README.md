@@ -1,40 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+## Introdução  
+A **Loja Online com Integração Stripe** é uma aplicação web desenvolvida para simular um e-commerce moderno e funcional. O foco principal é a compra de camisas, oferecendo uma experiência completa ao usuário. A aplicação permite a visualização detalhada dos produtos, acesso às informações completas das camisas e integração com o Stripe para pagamentos seguros. O projeto foi pensado para oferecer uma experiência fluida e prática, simulando operações reais de uma loja virtual.  
 
-## Getting Started
+---
 
-First, run the development server:
+## Tecnologias  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Front-end  
+- **React:** Para criar uma interface de usuário dinâmica e interativa.  
+- **React-DOM:** Responsável pela renderização dos componentes React.  
+- **Next.js:** Framework para desenvolvimento web que oferece otimização de performance e renderização do lado do servidor.  
+- **@stitches/react:** Biblioteca CSS-in-JS para estilização moderna e eficiente.  
+- **Axios:** Para realizar requisições HTTP e consumir a API do Stripe.  
+- **Keen-slider:** Implementação de sliders interativos para melhorar a apresentação de produtos.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Back-end  
+- **Stripe:** Integração com a API de pagamentos para processar transações de forma segura.  
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Desenvolvimento  
+- **TypeScript:** Proporciona tipagem estática, garantindo maior segurança e clareza no código.  
+- **ESLint:** Análise estática de código para manter a qualidade e evitar problemas.  
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## Capturas de Tela  
+A seguir, são apresentadas capturas de tela da aplicação **Loja Online com Integração Stripe**. As imagens mostram a interface do usuário em diferentes momentos, como a visualização do catálogo de camisas, o acesso às informações detalhadas dos produtos e o processo de checkout com Stripe.  
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![Screenshot 2025-01-16 115023](https://github.com/user-attachments/assets/0ec23641-92e8-459d-af2a-698d734e63a0)
+![Screenshot 2025-01-16 115054](https://github.com/user-attachments/assets/011b01ba-b9b3-4438-81a2-5e4dd3c54e4a)
+![Screenshot 2025-01-16 115127](https://github.com/user-attachments/assets/da2844ff-c073-48da-874f-e275d9a02ce0)
+![Screenshot 2025-01-16 115721](https://github.com/user-attachments/assets/559d0fbf-0262-4be5-a35b-504faac9edff)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## Deploy  
+- Experimente a aplicação online: [ignite-shop-two.vercel.app](https://ignite-shop-two.vercel.app/)  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
