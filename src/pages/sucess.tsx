@@ -32,8 +32,7 @@ export default function Succes({ customerName, product }: SucessProps) {
 
         <p>
           Uhuul <strong>{customerName}</strong>, sua{" "}
-          <strong>{product.name}</strong>
-          já esta a caminho da sua caasa.
+          <strong>{product.name}</strong> já esta a caminho da sua casa.
         </p>
 
         <Link href="/">Voltar ao catalogo</Link>
